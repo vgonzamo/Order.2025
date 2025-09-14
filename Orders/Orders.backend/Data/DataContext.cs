@@ -9,7 +9,7 @@ namespace Orders.backend.Data;
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
         }
-        public DbSet<Country> _Countries { get; set; }
+        public DbSet<Country> Countries { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
          { 
